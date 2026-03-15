@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Green Valley School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+  <div class="contact-info">
+    <i class="fas fa-phone-alt"></i> <span>+91 9014896650</span>
+    <i class="fas fa-envelope"></i> <span>office@springfield.edu</span>
+  </div>
+  <div class="social-icons">
+    <a href="https://www.facebook.com/share/17WEoSKhJK/"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://x.com/vamsidhark05"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/vamsiroyal_10?igsh=cWtod3R4YXk5YnYz"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.youtube.com/@vamsidharkuraku9929"><i class="fab fa-youtube"></i></a>
+  </div>
+</div>
+
+<!-- MAIN HEADER with logo + navigation -->
+<header class="main-header">
+  <div class="logo-area">
+    <i class="fas fa-school logo-icon"></i>
+    <div class="school-name">
+      <h1>Springfield Elementary</h1>
+      <p>where curiosity meets excellence</p>
+    </div>
+  </div>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#" class="active" id="nav-home">Home</a></li>
+      <li><a href="#" id="nav-about">About</a></li>
+      <li><a href="#" id="nav-programs">Programs</a></li>
+      <li><a href="#" id="nav-contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO SLIDER (JAVASCRIPT CONTROLLED) -->
+<section class="hero-section" id="hero-slider">
+  <div class="slides-container" id="slidesContainer">
+    <div class="slide" style="background-image: linear-gradient(135deg, #0a2f44, #19536e), url('https://images.unsplash.com/photo-1503676260728-51767d47b992?w=1200&auto=format'); background-blend-mode: overlay;">
+      <div class="slide-content">
+        <h2>21st Century Learning</h2>
+        <p>STEM, Arts & strong values</p>
+      </div>
+    </div>
+    <div class="slide" style="background-image: linear-gradient(135deg, #1b4c5c, #256078), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&auto=format'); background-blend-mode: overlay;">
+      <div class="slide-content">
+        <h2>Inspiring teachers</h2>
+        <p>small classes, big results</p>
+      </div>
+    </div>
+    <div class="slide" style="background-image: linear-gradient(135deg, #2d4d3e, #3f6b57), url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1200&auto=format'); background-blend-mode: overlay;">
+      <div class="slide-content">
+        <h2>Join our family</h2>
+        <p>enrolling March for fall 2026</p>
+      </div>
+    </div>
+  </div>
+  <button class="slider-btn prev" id="prevSlide"><i class="fas fa-chevron-left"></i></button>
+  <button class="slider-btn next" id="nextSlide"><i class="fas fa-chevron-right"></i></button>
+</section>
+
+<!-- STATISTICS / QUICK FACTS -->
+<div class="stats-bar">
+  <div class="stat-item"><i class="fas fa-user-graduate"></i><h3>1000+</h3><p>students</p></div>
+  <div class="stat-item"><i class="fas fa-chalkboard-teacher"></i><h3>100+</h3><p>teachers</p></div>
+  <div class="stat-item"><i class="fas fa-book-open"></i><h3>50+</h3><p>clubs</p></div>
+  <div class="stat-item"><i class="fas fa-trophy"></i><h3>150+</h3><p>awards</p></div>
+</div>
+
+<!-- WELCOME + ABOUT SECTION (dual) -->
+<section class="welcome-grid" id="aboutSection">
+  <div class="welcome-text">
+    <h2>Welcome to Springfield</h2>
+    <p>For over 60 years, we've nurtured young minds in a safe, creative environment. Our dedicated staff focus on emotional growth alongside academics.</p>
+    <p>We believe every child shines — whether in science fairs, on the soccer field, or on stage. Here, you'll find a community, not just a school.</p>
+  </div>
+  <div class="principal-talk">
+    <i class="fas fa-quote-right"></i>
+    <h3>“Education is the most powerful weapon to change the world.”</h3>
+    <p class="principal-name">— Kuraku Yaswitha, Principal</p>
+  </div>
+</section>
+
+<!-- ACADEMIC PROGRAMS (CARDS) -->
+<h2 class="programs-head"><span>our programs</span></h2>
+<div class="cards-container" id="programsSection">
+  <div class="program-card"><i class="fas fa-flask"></i><h3>STEM</h3><p>Robotics, coding, science lab</p></div>
+  <div class="program-card"><i class="fas fa-palette"></i><h3>Arts</h3><p>Music, theatre, visual arts</p></div>
+  <div class="program-card"><i class="fas fa-running"></i><h3>Athletics</h3><p>cricket, swimming, basketball</p></div>
+  <div class="program-card"><i class="fas fa-language"></i><h3>Languages</h3><p>English, Telugu, Hindi</p></div>
+</div>
+
+<!-- CONTACT + ENQUIRY FORM (JAVASCRIPT VALIDATION) -->
+<section class="contact-section" id="contactSection">
+  <div class="contact-info-block">
+    <h3>📬 visit or write</h3>
+    <p><i class="fas fa-map-pin"></i>Bv nagar,Nellore,Andhra pradesh</p>
+    <p><i class="fas fa-phone"></i>+91 9014896650</p>
+    <p><i class="fas fa-clock"></i> Mon–Sat 8:00 am – 4:00 pm</p>
+    <p><i class="fas fa-envelope"></i> office@springfield.edu</p>
+    <p style="margin-top:2rem;"><i class="fas fa-bus"></i> Free bus service available from 5 districts.</p>
+  </div>
+
+  <div class="enquiry-form">
+    <h3>✏️ ask a question</h3>
+    <form id="contactForm">
+      <div class="form-group">
+        <label>Full name *</label>
+        <input type="text" id="fullName" placeholder="e.g. Maria Santos">
+        <div class="error-message" id="nameError"></div>
+      </div>
+      <div class="form-group">
+        <label>Email *</label>
+        <input type="email" id="email" placeholder="maria@example.com">
+        <div class="error-message" id="emailError"></div>
+      </div>
+      <div class="form-group">
+        <label>Message *</label>
+        <textarea id="message" rows="3" placeholder="I'd like to know about..."></textarea>
+        <div class="error-message" id="msgError"></div>
+      </div>
+      <button type="submit" class="submit-btn" id="formSubmitBtn">Send enquiry <i class="fas fa-paper-plane"></i></button>
+      <p style="margin-top:1rem;" id="formFeedback"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>🏫 Springfield Elementary — learn, grow, thrive. © 2026</p>
+  <p style="font-size:0.9rem;">Designed with <i class="fas fa-heart" style="color:#f4b942;"></i> for the school community</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
